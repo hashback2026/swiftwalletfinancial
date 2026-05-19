@@ -1,0 +1,5 @@
+PORT=3000
+
+SWIFTPAY_URL=https://swiftpay-backend-uvv9.onrender.com
+SWIFTPAY_API_KEY=your_api_key
+SWIFTPAY_TILL_ID=your_till_id
