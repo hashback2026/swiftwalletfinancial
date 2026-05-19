@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bulk STK Push Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>Bulk STK Push Dashboard</h1>
+
+    <input
+      type="number"
+      id="amount"
+      placeholder="Enter Amount"
+      value="10"
+    />
+
+    <textarea
+      id="numbers"
+      placeholder="Paste phone numbers here...
+254712345678
+254700000000"
+    ></textarea>
+
+    <button onclick="sendBulk()">
+      Send STK Push
+    </button>
+
+    <div id="results"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
