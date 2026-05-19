@@ -1,0 +1,56 @@
+body {
+  font-family: Arial;
+  background: #f4f4f4;
+  padding: 30px;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+textarea {
+  width: 100%;
+  height: 250px;
+  margin-top: 15px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+}
+
+button {
+  margin-top: 15px;
+  width: 100%;
+  padding: 14px;
+  border: none;
+  background: green;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#results {
+  margin-top: 20px;
+}
+
+.result-item {
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 6px;
+}
+
+.success {
+  background: #dcfce7;
+}
+
+.failed {
+  background: #fee2e2;
+}
